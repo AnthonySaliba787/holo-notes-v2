@@ -2,7 +2,7 @@
   <Transition>
     <div
       v-show="showModal"
-      class="absolute w-screen min-h-dvh z-10 bg-neutral-white/80 backdrop-blur-lg flex flex-col justify-center items-center"
+      class="absolute w-screen min-h-screen z-10 bg-neutral-white/80 backdrop-blur-lg flex flex-col justify-center items-center"
     >
       <Modal @addNote="addNote" />
     </div>

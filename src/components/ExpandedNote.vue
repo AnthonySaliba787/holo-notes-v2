@@ -2,7 +2,7 @@
   <div v-for="note in notes" :key="note.id">
     <div
       v-if="note.expandNote"
-      class="absolute w-screen min-h-dvh z-20 bg-neutral-100/80 backdrop-blur-lg flex flex-col justify-center items-center"
+      class="absolute w-screen min-h-screen z-20 bg-neutral-100/80 backdrop-blur-lg flex flex-col justify-center items-center"
     >
       <div
         class="w-full h-screen flex justify-between items-center flex-col gap-4 px-8"
