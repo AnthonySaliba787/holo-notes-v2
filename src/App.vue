@@ -7,8 +7,11 @@
       <Modal @addNote="addNote" />
     </div>
   </Transition>
+
+  <ExpandedNote @deleteNote="deleteNote" />
+
   <div
-    class="w-screen min-h-dvh bg-neutral-100 flex flex-col justify-between items-center"
+    class="w-screen h-screen bg-neutral-100 flex flex-col justify-between items-center"
   >
     <Header />
     <Note />
@@ -23,6 +26,7 @@ import Header from "./components/Header.vue";
 import Footer from "./components/Footer.vue";
 import Note from "./components/Note.vue";
 import Modal from "./components/Modal.vue";
+import ExpandedNote from "./components/ExpandedNote.vue";
 
 const showModal = ref(false);
 const expandNote = ref(false);
